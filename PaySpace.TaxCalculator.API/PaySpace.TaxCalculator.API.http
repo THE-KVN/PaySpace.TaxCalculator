@@ -1,0 +1,6 @@
+@PaySpace.TaxCalculator.API_HostAddress = http://localhost:5177
+
+GET {{PaySpace.TaxCalculator.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

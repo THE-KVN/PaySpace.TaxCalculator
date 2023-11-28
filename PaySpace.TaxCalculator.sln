@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.TaxCalculator.Domain", "PaySpace.TaxCalculator.Domain\PaySpace.TaxCalculator.Domain.csproj", "{92289EA4-3D8C-4975-A7D0-6281DC6CC7E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.TaxCalculator.Application", "PaySpace.TaxCalculator.Application\PaySpace.TaxCalculator.Application.csproj", "{AA717A94-6121-4599-B36F-FF7B6FA36C84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.TaxCalculator.Infrastructure", "PaySpace.TaxCalculator.Infrastructure\PaySpace.TaxCalculator.Infrastructure.csproj", "{820CE88C-B5A7-4C6B-B504-AA7BEA4C0C89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.TaxCalculator.API", "PaySpace.TaxCalculator.API\PaySpace.TaxCalculator.API.csproj", "{FBBFA504-F197-4C5D-8C1D-1493ED6E8CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaySpace.TaxCalculator.UI", "PaySpace.TaxCalculator.UI\PaySpace.TaxCalculator.UI.csproj", "{61F4F144-1D81-45FD-8028-3618D334A412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySpace.TaxCalculator.Tests", "PaySpace.TaxCalculator.Tests\PaySpace.TaxCalculator.Tests.csproj", "{2910B209-D509-47DB-B27D-1657D9BFE52D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92289EA4-3D8C-4975-A7D0-6281DC6CC7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92289EA4-3D8C-4975-A7D0-6281DC6CC7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92289EA4-3D8C-4975-A7D0-6281DC6CC7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92289EA4-3D8C-4975-A7D0-6281DC6CC7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA717A94-6121-4599-B36F-FF7B6FA36C84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA717A94-6121-4599-B36F-FF7B6FA36C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA717A94-6121-4599-B36F-FF7B6FA36C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA717A94-6121-4599-B36F-FF7B6FA36C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820CE88C-B5A7-4C6B-B504-AA7BEA4C0C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820CE88C-B5A7-4C6B-B504-AA7BEA4C0C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820CE88C-B5A7-4C6B-B504-AA7BEA4C0C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820CE88C-B5A7-4C6B-B504-AA7BEA4C0C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBFA504-F197-4C5D-8C1D-1493ED6E8CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBFA504-F197-4C5D-8C1D-1493ED6E8CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBFA504-F197-4C5D-8C1D-1493ED6E8CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBFA504-F197-4C5D-8C1D-1493ED6E8CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F4F144-1D81-45FD-8028-3618D334A412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F4F144-1D81-45FD-8028-3618D334A412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F4F144-1D81-45FD-8028-3618D334A412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F4F144-1D81-45FD-8028-3618D334A412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2910B209-D509-47DB-B27D-1657D9BFE52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2910B209-D509-47DB-B27D-1657D9BFE52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2910B209-D509-47DB-B27D-1657D9BFE52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2910B209-D509-47DB-B27D-1657D9BFE52D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317BCFD3-1954-4D11-A93F-47E1BC6807A1}
+	EndGlobalSection
+EndGlobal

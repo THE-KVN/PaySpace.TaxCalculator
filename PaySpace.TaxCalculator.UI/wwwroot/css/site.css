@@ -1,0 +1,65 @@
+
+
+
+html {
+    font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+
+
+.btn-payspace {
+    color: #fff;
+    background-color: #8CC33F;
+    border-color: #8CC33F;
+}
+
+    .btn-payspace:hover {
+        color: #fff;
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+    .btn-check:focus + .btn-payspace, .btn-payspace:focus {
+        color: #fff;
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+        box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+    }
+
+    .btn-check:checked + .btn-payspace, .btn-check:active + .btn-payspace, .btn-payspace:active, .btn-payspace.active, .show > .btn-payspace.dropdown-toggle {
+        color: #fff;
+        background-color: #0a58ca;
+        border-color: #0a53be;
+    }
+
+        .btn-check:checked + .btn-payspace:focus, .btn-check:active + .btn-payspace:focus, .btn-payspace:active:focus, .btn-payspace.active:focus, .show > .btn-payspace.dropdown-toggle:focus {
+            box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+        }
+
+    .btn-payspace:disabled, .btn-payspace.disabled {
+        color: #fff;
+        background-color: #8CC33F;
+        border-color: #8CC33F;
+    }
